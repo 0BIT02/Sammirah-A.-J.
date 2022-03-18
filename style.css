@@ -1,0 +1,136 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-size: 16px;
+}
+h2
+{
+    padding: 15px;
+    color:#0066ffd5;
+}
+.logo
+{   
+    padding: 1%;
+    display: block;
+    margin: auto;
+}
+.menu a
+{
+    color: #005157;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+}
+ul
+{
+    list-style: none;
+}
+.contenedor
+{
+    width: 90%;
+    margin: auto;
+}
+/* estilos de navegacion*/
+.nav
+{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav ul
+{
+    display: flex;
+}
+.nav ul li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.nav ul li a:hover
+{
+    border-bottom: 3px solid #0f69cf;
+}
+.presentacion
+{
+    color: #092d57;
+    text-align:justify;
+    width: 90%;
+    margin: auto;
+    font-family: 'Courgette', cursive;
+    font-size: 12px;
+}
+.secciones
+{
+    padding: 5%;
+    text-decoration: underline overline rgba(20, 18, 141, 0.856);
+}
+.historias
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+.historias img
+{
+    width: 70%;
+    height: 250px;
+}
+.contacto
+{
+    text-decoration: none;
+    color: #c70a39;
+}
+.historias h3
+{
+    font-size: 20px;
+    margin: 10px 0;
+    color: #e70d0de3;
+}
+.historias p
+{
+    font-family: 'Emilys Candy', cursive;
+    font-size: 10px;
+}
+.sociales
+{
+    padding: 10%;
+}
+.sociales p
+{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: darkslategray;
+}
+.links
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconos
+{
+    width: 50px;
+    margin: 0 30px;
+}
+@media (max-width: 500px)
+{
+    .contenedro .historias
+    {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    }
+}
