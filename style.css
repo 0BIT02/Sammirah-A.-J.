@@ -79,13 +79,13 @@ ul
 .historias
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
 }
 .historias img
 {
-    width: 70%;
-    height: 250px;
+    width: 75%;
+    height: 550px;
 }
 .contacto
 {
