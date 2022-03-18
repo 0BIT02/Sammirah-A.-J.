@@ -38,7 +38,7 @@ ul
 /* estilos de navegacion*/
 .nav
 {
-    font-size: 17px;
+    font-size: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +101,7 @@ ul
 .historias p
 {
     font-family: 'Emilys Candy', cursive;
-    font-size: 10px;
+    font-size: 15px;
 }
 .sociales
 {
